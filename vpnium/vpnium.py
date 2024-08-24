@@ -91,6 +91,11 @@ class VPNium():
                 time.sleep(1)
             self.driver.get(self.extension_url)
             time.sleep(self.sleeptime)
+        
+        cross_btn = self.driver.find_elements(By.XPATH, '//div[@class="cross-icon simple-layout__close"]')
+        if cross_btn:
+            cross_btn[0].click()
+            time.sleep(self.sleeptime)
     
     def close_extension(self) -> None:
         """
@@ -122,7 +127,7 @@ class VPNium():
             self.driver.switch_to.window(self.driver.window_handles[0])
         time.sleep(1)
     
-    def get_avaible_servers(self, close_extension: bool = True, open_tab: bool = True) -> list[str]:
+    def get_available_servers(self, close_extension: bool = True, open_tab: bool = True) -> list[str]:
         """
         Retrieves a list of available servers.
         Args:

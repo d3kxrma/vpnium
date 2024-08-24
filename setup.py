@@ -10,7 +10,7 @@ classifiers = [
  
 setup(
   name='vpnium',
-  version='1.0.0',
+  version='1.0.1',
   description='Python library for managing a VPN extension for Chrome WebDriver',
   long_description=open('README.md').read(),
   long_description_content_type='text/markdown',

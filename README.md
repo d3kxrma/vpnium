@@ -7,7 +7,7 @@ VPNium is a Python library for managing a VPN extension for Chrome WebDriver. It
 To install VPNium, you can use pip:
 
 ```shell
-pip install VPNium
+pip install vpnium
 ```
 
 ## Usage
