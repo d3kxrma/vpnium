@@ -1,3 +1,4 @@
+[![PyPI Downloads](https://static.pepy.tech/badge/vpnium)](https://pepy.tech/projects/vpnium)
 # VPNium
 
 VPNium is a Python library for managing a VPN extension for Chrome WebDriver. It provides a convenient way to control and interact with a VPN extension within your Python scripts.
